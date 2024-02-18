@@ -23,6 +23,11 @@ jobs:
         dotnet publish -c Release -o publish
       working-directory: src/BlazorApp  # Adjust this to the correct path
 
+    - name: Copy staticwebappconfig.json
+      run: |
+        cp ../staticwebappconfig.json src/BlazorApp/publish/wwwroot/  
+      working-directory: src/BlazorApp/publish/wwwroot  # Adjust this to the correct path
+  
     - name: Create .nojekyll file
       run: |
         echo "" > .nojekyll
