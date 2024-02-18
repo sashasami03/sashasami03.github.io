@@ -25,7 +25,7 @@ jobs:
 
     - name: Copy staticwebapp.config.json
       run: |
-        cp ../staticwebapp.config.json src/BlazorApp/publish/wwwroot/  
+        cp ../staticwebapp.config.json src/BlazorApp/publish/wwwroot/staticwebapp.config.json
       working-directory: src/BlazorApp/publish/wwwroot  # Adjust this to the correct path
   
     - name: Create .nojekyll file
