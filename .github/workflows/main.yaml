@@ -1,0 +1,35 @@
+name: Build and Deploy Blazor WebAssembly
+
+on:
+  push:
+    branches:
+      - main  # Change this if your main branch has a different name
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '8.0'  # Change this to the version you need
+
+    - name: Build and Publish
+      run: |
+        dotnet publish -c Release -o publish
+      working-directory: src/BlazorApp  # Adjust this to the correct path
+
+    - name: Create .nojekyll file
+      run: |
+        echo "" > .nojekyll
+      working-directory: src/BlazorApp/publish/wwwroot  # Adjust this to the correct path
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./src/BlazorApp/publish/wwwroot  # Adjust this to the correct path

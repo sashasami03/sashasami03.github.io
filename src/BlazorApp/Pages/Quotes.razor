@@ -1,0 +1,50 @@
+﻿@page "/quotes"
+@inject HttpClient Http
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using BlazorApp.Cards
+@using BlazorApp.Models
+
+<PageTitle>Quotes</PageTitle>
+
+<div>
+    @if (quotes == null)
+    {
+        <!-- TODO: introduce a generic loading spinner for all http/external calls -->
+        <p style="color: white">Loading....</p>
+    }
+    else
+    {
+        <div class="quotes">
+            <QuickGrid Items="@quotes" Pagination="@pagination">
+                <TemplateColumn>
+                    <div class="flex items-center">
+                        <QuoteCard Quote="@context" />
+                    </div>
+                </TemplateColumn>
+            </QuickGrid>
+            <Paginator State="@pagination" />
+        </div>
+    }
+</div>
+
+
+@code {
+    private IQueryable<Quote> quotes;
+    PaginationState pagination = new PaginationState { ItemsPerPage = 5 };
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(300);
+        var quotesData = await Http.GetFromJsonAsync<Quote[]>("data/quotes.json");
+        quotes = quotesData?.AsQueryable();
+    }
+}
+
+<style>
+    .quotes
+    {
+        padding: 3px;
+        color: #444;
+        background: linear-gradient(to right bottom, #1c92d2 0%, #f2fcfe 100%);
+    }
+</style>

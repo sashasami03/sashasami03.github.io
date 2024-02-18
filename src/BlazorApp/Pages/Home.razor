@@ -1,0 +1,100 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+<div class="code-container">
+  <pre style="margin: 0; padding: 20px; border-radius: 8px; overflow: auto; background-color: #272822; color: #f8f8f2; font-family: 'Courier New', Courier, monospace;">
+      <code class="language-csharp">
+      class SashaSami
+      {
+          private int _breakEvenYear = 2024;
+          private DateTime _date;
+
+          public const string Name => "Sasha Sami";
+          public const Dictionary&ltstring, object&gt PersonalInclinations = new ()
+          {
+              <!--TODO: Figure out why language-csharp, interferes with html, till then hack around it. Learn CSS/HTML :/ -->
+              { "Anime", </code><a href="https://www.imdb.com/list/ls054602883/" class="imdb-logo">IMDb</a><code class="language-csharp"> },
+              { "Movies", "Remember, I'm a movie buff in December. Films, facts, and fun, I do remember." }
+              { "Pool and Snooker", "Efren Reyes (Magician) and Ronnie O'Sullivan (Rocket) are my favourites." }
+          }
+          public const Dictionary&ltstring, object&gt VirtualPresence => new ()
+          {
+              { "LinkedIn" : </code><a href="https://www.linkedin.com/in/sasha-sami-a266b125b/" class="fa fa-linkedin-square"></a><code class="language-csharp"> }
+          }
+
+          public Pdf Resume
+          {
+              get
+              {
+                   if (_date.Year > _breakEvenYear)
+                       throw new ArgumentException($"Expect year to be &lt= {_breakEvenYear.ToString()}");
+
+                   return </code><a href="files/resume.pdf" class="fa fa-file-pdf-o"></a><code class="language-csharp"> 
+              }
+          }
+          
+          public string Philosophy
+          {
+              get
+              {
+                  if (_date.Year >= _breakEvenYear)
+                      return </code>"Nobody exists on purpose. 
+                      Nobody belongs anywhere. 
+                      Everybody's gonna die. 
+                      Come watch TV."<code class="language-csharp">;
+
+                  return </code>"Run, rabbit, run
+                  Dig that hole, forget the sun
+                  And when at last the work is done
+                  Don't sit down, it's time to dig another one";<code class="language-csharp">
+              }
+          }
+
+          // everyone's instance depends on time
+          public SashaSami(DateTime date)
+          {
+              _date = date;
+          }
+      }
+      </code>
+  </pre>
+
+</div>
+
+<script>
+    // Trigger syntax highlighting
+    Prism.highlightAll();
+</script>
+
+<style>
+    .imdb-logo 
+    {
+        font: 1.5em/1 Impact, HelveticaNeue-CondensedBold, sans-serif;
+        color: #000;
+        text-shadow: 0 0 .1em #fff;
+        text-decoration: none;
+        display: inline-block;
+        vertical-align: bottom;
+        padding: .15em .25em;
+        border-radius: .08em;
+        background: radial-gradient(#ffffb8, #ce981d);
+    }
+    
+    .imdb-logo:hover 
+    {
+        background: radial-gradient(lighten(#ffffb8, 10%), lighten(#ce981d, 10%));
+    }
+
+    .fa-linkedin-square 
+    {
+        font-size: 2em;
+        color: blue;
+    }
+
+    .fa-file-pdf-o
+    {
+        font-size: 2em;
+        color: red;
+    }
+
+</style>
