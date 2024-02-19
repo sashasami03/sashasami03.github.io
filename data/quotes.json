@@ -22,5 +22,27 @@
     "Description": "",
     "Link": "https://en.wikipedia.org/wiki/BoJack_Horseman",
     "Tag": "TV Series"
+  },
+  {
+    "ImageName": "helen-keller.jpg",
+    "Title": "Helen Keller",
+    "QuoteString": "The best and most beautiful things in the world cannot be seen or even touched, they must be felt with the heart.",
+    "Description": "I came across this quote in the movie Silenced (2011).",
+    "Link": "https://en.wikipedia.org/wiki/Helen_Keller",
+    "Tag": "Personality"
+  },
+  {
+    "ImageName": "if-stone.jpg",
+    "Title": "I.F. Stone",
+    "QuoteString": "The only kinds of fights worth fighting are those you’re going to lose, because somebody has to fight them and lose and lose and lose until someday, somebody who believes as you do wins.",
+    "Link": "https://en.wikipedia.org/wiki/I._F._Stone",
+    "Tag": "Personality"
+  },
+  {
+    "ImageName": "comfortably-numb.jpg",
+    "Title": "Comfortable Numb (Pink Floyd)",
+    "QuoteString": "The child is grown..The dream is gone..I have become comfortably numb.",
+    "Link": "https://en.wikipedia.org/wiki/Comfortably_Numb",
+    "Tag": "Song"
   }
 ]
