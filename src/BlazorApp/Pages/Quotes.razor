@@ -34,7 +34,6 @@
 
     protected override async Task OnInitializedAsync()
     {
-        await Task.Delay(300);
         var quotesData = await Http.GetFromJsonAsync<Quote[]>("data/quotes.json");
         quotes = quotesData?.AsQueryable();
     }
