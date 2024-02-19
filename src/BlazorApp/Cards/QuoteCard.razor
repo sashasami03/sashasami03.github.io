@@ -15,8 +15,12 @@
       <div class="quote__tag">@Quote.Tag</div>
     </div>
     <p class="quote__string">
-    <i class="fa fa-quote-left" />&nbsp;
-      @Quote.QuoteString      
+      <sup><i class="fa fa-quote-left" /></sup>&nbsp;
+      @Quote.QuoteString
+      &nbsp;<sub><i class="fa fa-quote-right" /></sub>
+    </p>
+    <p class="quote__description">
+        @Quote.Description
     </p>
   </div>
 </figure>
@@ -80,16 +84,9 @@
     font-family: 'Roboto', sans-serif;
  }
 
-.quote__details {
-    display: flex;
-    margin: auto;
-}
-
-.quote__detail {
-   font-size: 13px;
-   margin-right: 20px;
-   display: flex;
-   align-items: center;
+.quote__description {
+    font-size: 11px;
+    color: #333;
 }
 
 .icons i {
