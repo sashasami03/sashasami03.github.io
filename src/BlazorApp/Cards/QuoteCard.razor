@@ -7,17 +7,17 @@
 
 <figure class="quote">
   <div class="quote__img__block">
-    <img src="images/@Quote.ImageName" class="quote__img">
+      <img src="images/@Quote.ImageName" class="quote__img">
   </div>
   <div class="quote__content">
-    <div class="quote__title">
-            <h1 class="heading__primary"><a href="@Quote.Link">@Quote.Title</a></h1>
+      <div class="quote__title">
+            <h1 class="heading__primary"><a href="@Quote.Link" class="@Quote.GetTagIconName()">&nbsp;@Quote.Title</a></h1>
       <div class="quote__tag">@Quote.Tag</div>
     </div>
     <p class="quote__string">
-      <sup><i class="fa fa-quote-left" /></sup>&nbsp;
-      @Quote.QuoteString
-      &nbsp;<sub><i class="fa fa-quote-right" /></sub>
+        <sup><i class="fa fa-quote-left" /></sup>&nbsp;
+        @Quote.QuoteString
+        &nbsp;<sub><i class="fa fa-quote-right" /></sub>
     </p>
     <p class="quote__description">
         @Quote.Description

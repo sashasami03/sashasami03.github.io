@@ -13,7 +13,7 @@
           public const Dictionary&ltstring, object&gt PersonalInclinations = new ()
           {
               <!--TODO: Figure out why language-csharp, interferes with html, till then hack around it. Learn CSS/HTML :/ -->
-              { "Anime", </code><a href="https://www.imdb.com/list/ls054602883/" class="imdb-logo">IMDb</a><code class="language-csharp"> },
+              { "Anime", </code><a href="https://www.imdb.com/list/ls054602883/" class="fa fa-imdb"</a><code class="language-csharp"> },
               { "Movies", "Remember, I'm a movie buff in December. Films, facts, and fun, I do remember." }
               { "Pool and Snooker", "Efren Reyes (Magician) and Ronnie O'Sullivan (Rocket) are my favourites." }
           }
@@ -67,22 +67,10 @@
 </script>
 
 <style>
-    .imdb-logo 
+    .fa-imdb
     {
-        font: 1.5em/1 Impact, HelveticaNeue-CondensedBold, sans-serif;
-        color: #000;
-        text-shadow: 0 0 .1em #fff;
-        text-decoration: none;
-        display: inline-block;
-        vertical-align: bottom;
-        padding: .15em .25em;
-        border-radius: .08em;
-        background: radial-gradient(#ffffb8, #ce981d);
-    }
-    
-    .imdb-logo:hover 
-    {
-        background: radial-gradient(lighten(#ffffb8, 10%), lighten(#ce981d, 10%));
+        font-size: 2em;
+        color: #ce981d;
     }
 
     .fa-linkedin-square 
