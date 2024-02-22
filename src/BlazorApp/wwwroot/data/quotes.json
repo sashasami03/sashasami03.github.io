@@ -3,7 +3,6 @@
     "ImageName": "matrix.jpeg",
     "Title": "Matrix Revolutions",
     "QuoteString": "Why keep fighting? Do you believe you're fighting for something? For more than your survival? Can you tell me what it is? Do you even know? Is it freedom? Or truth? Perhaps peace? Could it be for love? Illusions Mr. Anderson, vagaries of perception, temporary constructs of a feeble human intellect trying desperately to justify an existence that is without meaning or purpose. And all of them as artificial as the Matrix itself, although.. only a human mind could invent something as insipid as love. You must be able to see it Mr. Anderson. You must know it by now you can't win. It's pointless to keep fighting. Why Mr. Anderson? Why? Why do you persist? Neo: Because I choose to! ",
-    "Description": "",
     "Link": "https://en.wikipedia.org/wiki/The_Matrix_Revolutions",
     "Tag": "Movie"
   },
@@ -11,7 +10,6 @@
     "ImageName": "alice-in-wonderland.jpeg",
     "Title": "Alice in Wonderland",
     "QuoteString": "\"Would you tell me, please, which way I ought to go from here?\" --Alice. \"That depends a good deal on where you want to get to\" said the Cat. \"I don't much care where\" --Alice. \"Then it doesn't matter which way you go\" said the Cat. \"So long as I get somewhere...\", Alice added as an explanation. \"Oh, you're sure to do that\" said the Cat, \"if you only walk long enough\".",
-    "Description": "",
     "Link": "https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland",
     "Tag": "Story"
   },
@@ -19,7 +17,6 @@
     "ImageName": "bojack.jpg",
     "Title": "BoJack Horseman",
     "QuoteString": "It gets easier. Every day it gets a little easier. But you gotta do it every day, that’s the hard part. But it does get easier.",
-    "Description": "",
     "Link": "https://en.wikipedia.org/wiki/BoJack_Horseman",
     "Tag": "TV Series"
   },
@@ -44,5 +41,13 @@
     "QuoteString": "The child is grown..The dream is gone..I have become comfortably numb.",
     "Link": "https://en.wikipedia.org/wiki/Comfortably_Numb",
     "Tag": "Song"
+  },
+  {
+    "ImageName": "dylan-thomas.jpg",
+    "Title": "Dylan thomas",
+    "QuoteString": "Do not go gentle into that good night... Rage, rage against the dying of the light...",
+    "Description": "I know this from the movie Interstellar (2014).",
+    "Link": "https://en.wikipedia.org/wiki/Dylan_Thomas",
+    "Tag": "Personality"
   }
 ]
