@@ -39,8 +39,16 @@
     "ImageName": "comfortably-numb.jpg",
     "Title": "Comfortable Numb (Pink Floyd)",
     "QuoteString": "The child is grown..The dream is gone..I have become comfortably numb.",
-    "Link": "https://en.wikipedia.org/wiki/Comfortably_Numb",
+    "Link": "https://www.youtube.com/watch?v=LTseTg48568",
     "Tag": "Song"
+  },
+  {
+    "ImageName": "one-piece.jpg",
+    "Title": "One Piece",
+    "QuoteString": "When do you think people die? When they are shot through the heart by the bullet of a pistol? No. When they are ravaged by an incurable disease? No. When they drink a soup made from a poisonous mushroom!? No! It’s when… they are forgotten.",
+    "Description": "",
+    "Link": "https://cs.wikipedia.org/wiki/One_Piece",
+    "Tag": "TV Series"
   },
   {
     "ImageName": "dylan-thomas.jpg",
@@ -48,6 +56,14 @@
     "QuoteString": "Do not go gentle into that good night... Rage, rage against the dying of the light...",
     "Description": "I know this from the movie Interstellar (2014).",
     "Link": "https://en.wikipedia.org/wiki/Dylan_Thomas",
+    "Tag": "Personality"
+  },
+  {
+    "ImageName": "mirza-galib.jpg",
+    "Title": "Mirza Ghalib",
+    "QuoteString": "हम वहाँ हैं जहाँ से हमको खुदकी ख़बर नहीं आती है।",
+    "Description": "",
+    "Link": "https://en.wikipedia.org/wiki/Ghalib",
     "Tag": "Personality"
   }
 ]
