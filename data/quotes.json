@@ -66,11 +66,19 @@
     "Tag": "Personality"
   },
   {
+    "ImageName": "interstellar.jpg",
+    "Title": "Interstellar",
+    "QuoteString": "\"It's not possible\". \"No, it's necessary\".",
+    "Description": "",
+    "Link": "https://en.wikipedia.org/wiki/Interstellar_(film)",
+    "Tag": "Movie"
+  },
+  {
     "ImageName": "mirza-galib.jpg",
     "Title": "Mirza Ghalib",
     "QuoteString": "हम वहाँ हैं जहाँ से हमको खुदकी ख़बर नहीं आती है।",
     "Description": "",
     "Link": "https://en.wikipedia.org/wiki/Ghalib",
     "Tag": "Personality"
-  }
+  } 
 ]
