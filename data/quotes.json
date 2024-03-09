@@ -29,6 +29,22 @@
     "Tag": "Personality"
   },
   {
+    "ImageName": "psycho-pass.jpg",
+    "Title": "Psycho-Pass",
+    "QuoteString": "Everyone here is the same. They don’t notice anything. They don’t say anything. And they don’t think anything. They are merely a shell of their former selves and soon they will disappear like the melting snow. This epidemic leads innocent people to their deaths, and yet, its pathogen will never be eradicated. This is a disease called serenity, a form of death that people have wished for.",
+    "Description": "",
+    "Link": "https://en.wikipedia.org/wiki/Psycho-Pass",
+    "Tag": "TV Series"
+  },
+  {
+    "ImageName": "v.jpg",
+    "Title": "V for Vendetta",
+    "QuoteString": "Beneath this mask there is more than flesh. Beneath this mask there is an idea. And ideas are bulletproof!",
+    "Description": "",
+    "Link": "https://en.wikipedia.org/wiki/V_for_Vendetta_(film)",
+    "Tag": "Movie"
+  },
+  {
     "ImageName": "if-stone.jpg",
     "Title": "I.F. Stone",
     "QuoteString": "The only kinds of fights worth fighting are those you’re going to lose, because somebody has to fight them and lose and lose and lose until someday, somebody who believes as you do wins.",
@@ -80,5 +96,5 @@
     "Description": "",
     "Link": "https://en.wikipedia.org/wiki/Ghalib",
     "Tag": "Personality"
-  } 
+  }
 ]
