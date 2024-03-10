@@ -10,6 +10,7 @@
           private DateTime _date;
 
           public const string Name => "Sasha Sami";
+
           public const Dictionary&ltstring, object&gt PersonalInclinations = new ()
           {
               <!--TODO: Figure out why language-csharp, interferes with html, till then hack around it. Learn CSS/HTML :/ -->
@@ -17,22 +18,13 @@
               { "Movies", "Remember, I'm a movie buff in December. Films, facts, and fun, I do remember." }
               { "Pool and Snooker", "Efren Reyes (Magician) and Ronnie O'Sullivan (Rocket) are my favourites." }
           }
+
           public const Dictionary&ltstring, object&gt VirtualPresence => new ()
           {
-              { "LinkedIn" : </code><a href="https://www.linkedin.com/in/sasha-sami-a266b125b/" class="fa fa-linkedin-square"></a><code class="language-csharp"> }
+              // Currently the best way to contact me :/
+              { "LinkedIn" : </code><a href="https://www.linkedin.com/in/sasha-sami-a266b125b/" class="fa fa-linkedin-square"></a><code class="language-csharp"> },
           }
 
-          public Pdf Resume
-          {
-              get
-              {
-                   if (_date.Year > _breakEvenYear)
-                       throw new ArgumentException($"Expect year to be &lt= {_breakEvenYear.ToString()}");
-
-                   return </code><a href="files/resume.pdf" class="fa fa-file-pdf-o"></a><code class="language-csharp"> 
-              }
-          }
-          
           public string Philosophy
           {
               get
@@ -57,8 +49,21 @@
           }
       }
       </code>
-  </pre>
+      <!--
+        Removed Resume from homepage, maybe will add back later?
 
+        public Pdf Resume
+        {
+                get
+                {
+                     if (_date.Year > _breakEvenYear)
+                         throw new ArgumentException($"Expect year to be &lt= {_breakEvenYear.ToString()}");
+
+                     return </code><a href="files/resume.pdf" class="fa fa-file-pdf-o"></a><code class="language-csharp">
+                }
+        }
+      -->
+  </pre>
 </div>
 
 <script>
