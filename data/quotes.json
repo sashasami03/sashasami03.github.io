@@ -29,6 +29,14 @@
     "Tag": "Personality"
   },
   {
+    "ImageName": "true-detective.jpeg",
+    "Title": "True Detective (Season 1)",
+    "QuoteString": "To realize that all your life you know, all your love, all your hate, all your memory, all your pain—it was all the same thing. It was all the same dream. A dream that you had inside a locked room. A dream about being a person. And like a lot of dreams there's a monster at the end of it.",
+    "Description": "Rust Cohle...<3",
+    "Link": "https://en.wikipedia.org/wiki/True_Detective_%28season_1%29",
+    "Tag": "TV Series"
+  },
+  {
     "ImageName": "psycho-pass.jpg",
     "Title": "Psycho-Pass",
     "QuoteString": "Everyone here is the same. They don’t notice anything. They don’t say anything. And they don’t think anything. They are merely a shell of their former selves and soon they will disappear like the melting snow. This epidemic leads innocent people to their deaths, and yet, its pathogen will never be eradicated. This is a disease called serenity, a form of death that people have wished for.",
@@ -72,6 +80,14 @@
     "Description": "",
     "Link": "https://cs.wikipedia.org/wiki/One_Piece",
     "Tag": "TV Series"
+  },
+  {
+    "ImageName": "itot.jpg",
+    "Title": "I''m Thinking of Ending Things",
+    "QuoteString": "I feel like maybe our society lacks a certain kindness, a certain willingness to take in the struggles of others struggling with issues caused by an alienating society. It seems hopeless. Like feeling old, like your body is going, your hearing, your sight. You can't see, and you're invisible. And you've made so many wrong turns. The lie of it all. That it's going to get better, that it's never too late, that God has a plan for you. That age is just a number. That it's always darkest before dawn. That every cloud has a silver lining. That there's someone for everyone. And God never gives us more than we can bear...",
+    "Description": "",
+    "Link": "https://en.wikipedia.org/wiki/I%27m_Thinking_of_Ending_Things",
+    "Tag": "Movie"
   },
   {
     "ImageName": "dylan-thomas.jpg",
